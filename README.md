@@ -7,6 +7,8 @@ This project leverages PyTorch and TensorFlow for model construction, training, 
 
 This project is inspired by and incorporates supplementary code from Sebastian Raschka's book "Building a Large Language Model from Scratch."
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 **Key Features**
 
 1) **Tokenizer:** The Tokenizer Jupyter notebook covers key steps in text preprocessing and tokenization. It reads raw text, splits it into tokens using regular expressions, and creates a vocabulary that maps tokens to unique IDs. The notebook also introduces a custom tokenizer, SimpleTokenizerV1, which converts text into token sequences and back into readable text. It also demonstrates tokenization with the tiktoken library using GPT-2 encoding, handling special tokens. This provides a strong foundation for preparing text data for model training and experimentation.
