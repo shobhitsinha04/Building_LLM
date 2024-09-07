@@ -15,8 +15,9 @@ This project is inspired by and incorporates supplementary code from Sebastian R
 
 3) Pre-Training: The Pre-Training Jupyter notebook focuses on pretraining a simplified GPT model. It defines a model configuration with key parameters like vocabulary size and context length. Using tiktoken for GPT-2 encoding, the notebook demonstrates text generation based on input tokens. It includes a training loop that splits data into training and validation sets, tracks losses, and evaluates model performance. After each epoch, a sample text is generated, and the model is saved with visualized training results. This setup provides a straightforward approach to pretraining and evaluating a GPT model.
 
+4) Weight Loading: The Weight Loading Jupyter notebook demonstrates loading pretrained GPT-2 model weights, configuring different model sizes (small, medium, large, XL), and assigning weights to a custom torch GPT model. After loading the weights, it performs text generation using tiktoken for encoding and showcases text generation with the litgpt library. The setup effectively illustrates weight loading and inference with a GPT model.
 
-
+5) Fine Tuning: The Fine Tuning Jupyter notebook on fine-tuning demonstrates the process of working with instruction-based data to fine-tune a language model. It reads a dataset from a JSON file, processes it to create model inputs and outputs, and splits the data into training and test sets. The notebook uses a fine-tuning command with the litgpt library to fine-tune the model on this dataset. It also includes functionality for scoring model responses based on a predefined scoring mechanism. This setup provides a complete workflow for fine-tuning a model using instruction-based tasks.
 
 
 
