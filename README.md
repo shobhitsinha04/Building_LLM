@@ -31,6 +31,8 @@ This project successfully demonstrates the process of building a Large Language 
 **Source Code**
 
 The supplementary code and guidance for this project were drawn from Sebastian Raschka's book "Building a Large Language Model from Scratch." 
+
+
 **Raschka, Sebastian. Build A Large Language Model (From Scratch). Manning, 2024. ISBN: 978-1633437166.**
 
 
