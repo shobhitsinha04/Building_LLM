@@ -26,6 +26,12 @@ This project is inspired by and incorporates supplementary code from Sebastian R
 
 This project successfully demonstrates the process of building a Large Language Model (LLM) from scratch using transformer-based architectures like GPT. By combining modern machine learning techniques with efficient tokenization, architecture design, weight loading, and fine-tuning processes, the project provides a comprehensive guide to constructing and optimizing LLMs. The use of tools like PyTorch, tiktoken, and litgpt ensures that each stage, from pretraining to fine-tuning for specific tasks, is done efficiently and effectively. Through this project, we've shown how instruction-based tasks can be leveraged to fine-tune models for specific applications, paving the way for future improvements and extensions in the realm of NLP.
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+**Source Code**
+
+The supplementary code and guidance for this project were drawn from Sebastian Raschka's book "Building a Large Language Model from Scratch." You can find the corresponding GitHub repository here: https://github.com/rasbt/LLM-workshop-2024/tree/main
+
 
 
 
