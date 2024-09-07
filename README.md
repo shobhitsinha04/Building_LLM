@@ -13,7 +13,7 @@ This project is inspired by and incorporates supplementary code from Sebastian R
 
 2) Architecture: The Architecture Jupyter notebook focuses on building and training a simplified GPT architecture. It begins by defining a configuration for a small GPT model, specifying key parameters like vocabulary size, embedding dimensions, attention heads, and layers. The main model, GPTModel, uses transformer blocks and embedding layers to process input tokens and generate predictions. The notebook includes examples of tokenizing text using tiktoken, running input through the model, and generating output sequences. Additionally, a simple text generation function is provided to extend text based on input tokens by sampling from the model’s output.
 
-
+3) Pre-Training: The Pre-Training Jupyter notebook focuses on pretraining a simplified GPT model. It defines a model configuration with key parameters like vocabulary size and context length. Using tiktoken for GPT-2 encoding, the notebook demonstrates text generation based on input tokens. It includes a training loop that splits data into training and validation sets, tracks losses, and evaluates model performance. After each epoch, a sample text is generated, and the model is saved with visualized training results. This setup provides a straightforward approach to pretraining and evaluating a GPT model.
 
 
 
